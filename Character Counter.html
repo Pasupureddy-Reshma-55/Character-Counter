@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="Character Counter.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Character Counter</h2>
+
+        <p>Type your text below:</p>
+
+        <textarea id="textInput"
+                  placeholder="Enter your text..."
+                  maxlength="200"></textarea>
+
+        <p>Characters: <span id="charCount">0</span></p>
+
+        <p>Words: <span id="wordCount">0</span></p>
+
+        <p>Remaining: <span id="remaining">200</span></p>
+
+        <button onclick="clearText()">Clear</button>
+    </div>
+
+    <script src="Character Counter.js"></script>
+</body>
+</html>
